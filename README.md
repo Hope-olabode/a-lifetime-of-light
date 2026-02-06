@@ -1,73 +1,110 @@
-# Welcome to your Lovable project
+# Project Name
 
-## Project info
+A modern web application built with React, TypeScript, and Tailwind CSS.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
-
-## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
+## Technologies
 
 This project is built with:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- **Vite** - Fast build tool and development server
+- **TypeScript** - Type-safe JavaScript
+- **React** - UI library
+- **shadcn-ui** - High-quality React components
+- **Tailwind CSS** - Utility-first CSS framework
 
-## How can I deploy this project?
+## Prerequisites
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+- Node.js (v14 or higher)
+- npm or yarn
 
-## Can I connect a custom domain to my Lovable project?
+Install Node.js using [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) (recommended)
 
-Yes, you can!
+## Getting Started
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+### Installation
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+1. Clone the repository:
+```sh
+git clone <your-repository-url>
+cd <project-directory>
+```
+
+2. Install dependencies:
+```sh
+npm install
+```
+
+3. Start the development server:
+```sh
+npm run dev
+```
+
+The application will be available at `http://localhost:5173` (or another port if 5173 is in use).
+
+## Available Scripts
+
+- `npm run dev` - Start the development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview the production build locally
+- `npm run lint` - Run ESLint to check code quality
+
+## Project Structure
+
+```
+├── src/
+│   ├── components/     # React components
+│   ├── pages/          # Page components
+│   ├── lib/            # Utility functions and helpers
+│   ├── hooks/          # Custom React hooks
+│   └── App.tsx         # Main application component
+├── public/             # Static assets
+└── index.html          # Entry HTML file
+```
+
+## Development
+
+### Code Style
+
+This project uses ESLint and TypeScript for code quality and type safety. Make sure to:
+
+- Follow the existing code style
+- Write type-safe code
+- Run linting before committing
+
+### Building for Production
+
+To create a production build:
+
+```sh
+npm run build
+```
+
+The built files will be in the `dist/` directory.
+
+## Deployment
+
+You can deploy this application to any static hosting service:
+
+- Vercel
+- Netlify
+- GitHub Pages
+- AWS S3
+- And many others
+
+Simply build the project and upload the contents of the `dist/` directory.
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License
+
+[Add your license here]
+
+## Contact
+
+[Add your contact information here]
