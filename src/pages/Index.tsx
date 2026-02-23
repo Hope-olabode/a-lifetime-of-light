@@ -14,7 +14,7 @@ const Index = () => {
         </div>
 
         <div className="relative z-[30px] container mx-auto px-4 text-center text-primary-foreground">
-          <div className="max-w-4xl mx-auto space-y-6 animate-fade-in">
+          <div className="max-w-4xl mx-auto space-y-5 md:space-y-6 animate-fade-in">
             {/* Decorative Element */}
             <div className="flex justify-center mb-8">
               <div className="w-24 h-1 bg-secondary rounded-full" />
