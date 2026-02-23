@@ -41,8 +41,8 @@ const Index = () => {
             </div>
 
             {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 justify-center  pt-4">
-              <Button asChild size="lg" className="bg-secondary mb-10 text-secondary-foreground hover:bg-gold-light">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
+              <Button asChild size="lg" className="bg-secondary lg:mb-10 text-secondary-foreground hover:bg-gold-light">
                 <Link to="/about">
                   Read Her Story
                   <ArrowRight className="ml-2 h-4 w-4" />
