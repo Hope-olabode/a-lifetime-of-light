@@ -14,7 +14,7 @@ import { z } from "zod";
 const tributeSchema = z.object({
   name: z.string().trim().min(1, "Name is required").max(100, "Name must be less than 100 characters"),
   relationship: z.string().trim().max(100, "Relationship must be less than 100 characters").optional(),
-  message: z.string().trim().min(1, "Message is required").max(2000, "Message must be less than 2000 characters"),
+  message: z.string().trim().min(1, "Message is required")/* .max(2000, "Message must be less than 2000 characters") */,
 });
 
 const formatDate = (dateString: string) => {
