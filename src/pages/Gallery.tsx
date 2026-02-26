@@ -5,9 +5,14 @@ import { Button } from "@/components/ui/button";
 import { ChevronLeft, ChevronRight, X } from "lucide-react";
 import e1 from "../images/Early Years/WhatsApp Image 2026-02-23 at 20.48.00.jpeg"
 import e2 from "../images/Early Years/WhatsApp Image 2026-02-23 at 20.48.13 (1).jpeg"
+import e3 from "../images/Early Years/WhatsApp Image 2026-02-24 at 17.58.19.jpeg"
 import t1 from "../images/Teaching/WhatsApp Image 2026-02-23 at 20.48.04.jpeg"
 import t2 from "../images/Teaching/WhatsApp Image 2026-02-23 at 20.48.10.jpeg"
 import t3 from "../images/Teaching/WhatsApp Image 2026-02-23 at 20.48.13.jpeg"
+import t4 from "../images/Teaching/WhatsApp Image 2026-02-24 at 17.58.17.jpeg"
+import t5 from "../images/Teaching/WhatsApp Image 2026-02-24 at 17.58.18 (1).jpeg"
+import t6 from "../images/Teaching/WhatsApp Image 2026-02-24 at 17.58.18 (2).jpeg"
+import t7 from "../images/Teaching/WhatsApp Image 2026-02-24 at 17.58.18.jpeg"
 import f1 from "../images/Family/WhatsApp Image 2026-02-23 at 20.47.58.jpeg"
 import f2 from "../images/Family/WhatsApp Image 2026-02-23 at 20.47.59 (1).jpeg"
 import f3 from "../images/Family/WhatsApp Image 2026-02-23 at 20.47.59 (2).jpeg"
@@ -36,23 +41,28 @@ const Gallery = () => {
   const categories = ["All", "Early Years", "Teaching", "Family", "Retirement", "Special Moments"];
 
   const photos: Photo[] = [
-    { id: 1,  src: e1,  category: "Early Years",     caption: "",                       year: "" },
-    { id: 2,  src: e2,  category: "Early Years",     caption: "",                        year: "" },
-    { id: 3,  src: t1,  category: "Teaching",        caption: "",              year:"" },
-    { id: 4,  src: t2,  category: "Teaching",        caption: "",          year: "" },
-    { id: 5,  src: t3,  category: "Teaching",        caption: "",        year: "" },
-    { id: 6,  src: f1,  category: "Family",          caption: "",                         year: "" },
-    { id: 7,  src: f2,  category: "Family",          caption: "",        year: "" },
-    { id: 8,  src: f3,  category: "Family",          caption: "",                       year: "" },
-    { id: 9,  src: f4,  category: "Family",          caption: "",                       year: "" },
-    { id: 10, src: f5,  category: "Family",          caption: "",                       year: "" },
-    { id: 11, src: f6,  category: "Family",          caption: "",                       year: "" },
-    { id: 12, src: f7,  category: "Family",          caption: "",                       year: "" },
-    { id: 13, src: f8,  category: "Family",          caption: "",                       year: "" },
-    { id: 14, src: s1, category: "Special Moments",      caption: "",                   year: "" },
-    { id: 15, src: s2, category: "Special Moments", caption: "",                   year: "" },
-    { id: 16, src: s3, category: "Special Moments", caption: "",  year: "" },
-    { id: 17, src: s4, category: "Special Moments", caption: "",  year: "" },
+    { id: 1,  src: e1,  category: "Early Years",     caption: "",        year: "" },
+    { id: 2,  src: e2,  category: "Early Years",     caption: "",        year: "" },
+    { id: 3,  src: e3,  category: "Early Years",     caption: "",        year: "" },
+    { id: 4,  src: t1,  category: "Teaching",        caption: "",        year:"" },
+    { id: 5,  src: t2,  category: "Teaching",        caption: "",        year: "" },
+    { id: 6,  src: t3,  category: "Teaching",        caption: "",        year: "" },
+    { id: 7,  src: t4,  category: "Teaching",        caption: "",        year: "" },
+    { id: 8,  src: t5,  category: "Teaching",        caption: "",        year: "" },
+    { id: 9,  src: t6,  category: "Teaching",        caption: "",        year: "" },
+    { id: 10, src: t7,  category: "Teaching",        caption: "",        year: "" },
+    { id: 11, src: f1,  category: "Family",          caption: "",        year: "" },
+    { id: 12, src: f2,  category: "Family",          caption: "",        year: "" },
+    { id: 13, src: f3,  category: "Family",          caption: "",        year: "" },
+    { id: 14, src: f4,  category: "Family",          caption: "",        year: "" },
+    { id: 15, src: f5,  category: "Family",          caption: "",        year: "" },
+    { id: 16, src: f6,  category: "Family",          caption: "",        year: "" },
+    { id: 17, src: f7,  category: "Family",          caption: "",        year: "" },
+    { id: 18, src: f8,  category: "Family",          caption: "",        year: "" },
+    { id :19 ,src: s1,  category: "Special Moments", caption: "",        year: ""},
+    { id :20 ,src: s2,  category: "Special Moments", caption: "",        year: ""},
+    { id: 21, src: s3,  category: "Special Moments", caption: "",        year: "" },
+    { id: 22, src: s4,  category: "Special Moments", caption: "",        year: "" },
   ];
 
   const filteredPhotos = activeCategory === "All"
