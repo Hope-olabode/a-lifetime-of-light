@@ -8,7 +8,7 @@ const About = () => {
       period: "Early Life",
       years: "1967 - 1979",
       icon: Heart,
-      content: `Oluyemisi Ibironke Kemiki was born on May 18, 1967, in Abeokuta, Ogun State, into a family rooted in heritage and dignity. She is the daughter of the late Chief Edward Adebola Durogbola Kemiki of Mobegelu Compound, Iporogun, Ijebu Ode, and Madam Celicia Durogbola Kemiki. Her formative years were shaped by a home that valued character and diligence. She began her scholastic journey at LadiLak Primary School from 1973 to 1979 — early years that would quietly nurture the educator she was destined to become.`,
+      content: `Oluyemisi Ibironke Kemiki was born on May 18, 1967, in Porogun, Ijebu Ode, Ogun State, into a family rooted in heritage and dignity. She is the daughter of the late Chief Edward Adebola Durogbola Kemiki of Mobegelu Compound, Porogun, Ijebu Ode, and Madam Celicia Durogbola Kemiki. Her formative years were shaped by a home that valued character and diligence. She began her scholastic journey at LadiLak Primary School from 1973 to 1979 — early years that would quietly nurture the educator she was destined to become.`,
     },
     {
       period: "Education & Training",
@@ -26,7 +26,7 @@ const About = () => {
       period: "Communities Served",
       years: "1991 - 2026",
       icon: MapPin,
-      content: `Over the course of her illustrious career, Mrs. Fawunmi has served with distinction across nine schools in Lagos State: Ebenezer Comprehensive High School, Government College, Vetland College (where she gave a remarkable decade of service), Ijaye-Ojokoro Senior High School, Ijaye-Ojokoro Senior College, Isefun Senior High School, Community Junior Grammar School Ipaja, Community Senior Grammar School, Abesan Comprehensive Junior College, and Orisunmbare Senior High School, Ayobo. Each posting brought new communities, new challenges, and new lives to impact — and in every one, she left things better than she found them.`,
+      content: `Over the course of her illustrious career, Mrs. Fawunmi has served with distinction across ten schools in Lagos State: Ebenezer Comprehensive High School, Government College, Vetland College (where she gave a remarkable decade of service), Ijaye-Ojokoro Senior High School, Ijaye-Ojokoro Senior College, Isefun Senior High School, Community Junior Grammar School Ipaja, Community Senior Grammar School, Abesan Comprehensive Junior College, and Orisunmbare Senior High School, Ayobo. Each posting brought new communities, new challenges, and new lives to impact — and in every one, she left things better than she found them.`,
     },
   ];
 

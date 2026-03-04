@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="text-center md:text-left">
-            <p className="font-serif text-lg text-secondary">A Life of Service</p>
+            <p className="font-serif text-lg text-secondary">A Life Of Service Well Spent</p>
             <p className="text-sm text-primary-foreground/70 mt-1">
               Honoring a lifetime of dedication to education
             </p>

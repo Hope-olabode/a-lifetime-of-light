@@ -24,7 +24,7 @@ const Header = () => {
           {/* Logo / Site Title */}
           <Link to="/" className="flex items-center gap-2">
             <span className="text-secondary font-serif text-xl md:text-2xl font-semibold">
-              A Life of Service
+              A Life Of Service Well Spent
             </span>
           </Link>
 

@@ -13,6 +13,13 @@ import t4 from "../images/Teaching/WhatsApp Image 2026-02-24 at 17.58.17.jpeg"
 import t5 from "../images/Teaching/WhatsApp Image 2026-02-24 at 17.58.18 (1).jpeg"
 import t6 from "../images/Teaching/WhatsApp Image 2026-02-24 at 17.58.18 (2).jpeg"
 import t7 from "../images/Teaching/WhatsApp Image 2026-02-24 at 17.58.18.jpeg"
+import t8 from "../images/Teaching/WhatsApp Image 2026-02-23 at 20.48.03.jpeg"
+import t9 from "../images/Teaching/WhatsApp Image 2026-02-23 at 20.48.04 (1).jpeg"
+import t10 from "../images/Teaching/WhatsApp Image 2026-02-23 at 20.48.04 (2).jpeg"
+import t11 from "../images/Teaching/WhatsApp Image 2026-02-23 at 20.48.05 (1).jpeg"
+import t12 from "../images/Teaching/WhatsApp Image 2026-02-23 at 20.48.06 (1).jpeg"
+import t13 from "../images/Teaching/WhatsApp Image 2026-02-23 at 20.48.08 (3).jpeg"
+import t14 from "../images/Teaching/WhatsApp Image 2026-02-23 at 20.48.08.jpeg"
 import f1 from "../images/Family/WhatsApp Image 2026-02-23 at 20.47.58.jpeg"
 import f2 from "../images/Family/WhatsApp Image 2026-02-23 at 20.47.59 (1).jpeg"
 import f3 from "../images/Family/WhatsApp Image 2026-02-23 at 20.47.59 (2).jpeg"
@@ -25,6 +32,20 @@ import s1 from "../images/Special Moments/WhatsApp Image 2026-02-23 at 20.48.05.
 import s2 from "../images/Special Moments/WhatsApp Image 2026-02-23 at 20.48.12.jpeg"
 import s3 from "../images/Special Moments/WhatsApp Image 2026-02-23 at 20.48.18 (1).jpeg"
 import s4 from "../images/Special Moments/WhatsApp Image 2026-02-23 at 20.48.18.jpeg"
+import s5 from "../images/Special Moments/WhatsApp Image 2026-02-23 at 20.48.01 (1).jpeg"
+import s6 from "../images/Special Moments/WhatsApp Image 2026-02-23 at 20.48.01 (2).jpeg"
+import s7 from "../images/Special Moments/WhatsApp Image 2026-02-23 at 20.48.02.jpeg"
+import s8 from "../images/Special Moments/WhatsApp Image 2026-02-23 at 20.48.05 (4).jpeg"
+import s9 from "../images/Special Moments/WhatsApp Image 2026-02-23 at 20.48.09.jpeg"
+import s10 from "../images/Special Moments/WhatsApp Image 2026-02-23 at 20.48.12.jpeg"
+import s11 from "../images/Special Moments/WhatsApp Image 2026-02-23 at 20.48.14.jpeg"
+import s12 from "../images/Special Moments/WhatsApp Image 2026-02-23 at 20.48.17 (1).jpeg"
+import s13 from "../images/Special Moments/WhatsApp Image 2026-02-23 at 20.48.18 (4).jpeg"
+import s14 from "../images/Special Moments/WhatsApp Image 2026-02-23 at 20.48.20 (1).jpeg"
+import s15 from "../images/Special Moments/WhatsApp Image 2026-02-23 at 20.48.20.jpeg"
+import s16 from "../images/Special Moments/WhatsApp Image 2026-02-23 at 20.48.01 (1).jpeg"
+import s17 from "../images/Special Moments/WhatsApp Image 2026-02-23 at 20.48.20.jpeg"
+
 
 interface Photo {
   id: number;
@@ -51,18 +72,38 @@ const Gallery = () => {
     { id: 8,  src: t5,  category: "Teaching",        caption: "",        year: "" },
     { id: 9,  src: t6,  category: "Teaching",        caption: "",        year: "" },
     { id: 10, src: t7,  category: "Teaching",        caption: "",        year: "" },
-    { id: 11, src: f1,  category: "Family",          caption: "",        year: "" },
-    { id: 12, src: f2,  category: "Family",          caption: "",        year: "" },
-    { id: 13, src: f3,  category: "Family",          caption: "",        year: "" },
-    { id: 14, src: f4,  category: "Family",          caption: "",        year: "" },
-    { id: 15, src: f5,  category: "Family",          caption: "",        year: "" },
-    { id: 16, src: f6,  category: "Family",          caption: "",        year: "" },
-    { id: 17, src: f7,  category: "Family",          caption: "",        year: "" },
-    { id: 18, src: f8,  category: "Family",          caption: "",        year: "" },
-    { id :19 ,src: s1,  category: "Special Moments", caption: "",        year: ""},
-    { id :20 ,src: s2,  category: "Special Moments", caption: "",        year: ""},
-    { id: 21, src: s3,  category: "Special Moments", caption: "",        year: "" },
-    { id: 22, src: s4,  category: "Special Moments", caption: "",        year: "" },
+    { id: 11, src: t8,  category: "Teaching",        caption: "",        year: "" },
+    { id: 12, src: t9,  category: "Teaching",        caption: "",        year: "" },
+    { id: 13, src: t10,  category: "Teaching",        caption: "",        year: "" },
+    { id: 14, src: t11,  category: "Teaching",        caption: "",        year: "" },
+    { id: 15, src: t12,  category: "Teaching",        caption: "",        year: "" },
+    { id: 16, src: t13,  category: "Teaching",        caption: "",        year: "" },
+    { id: 17, src: t14,  category: "Teaching",        caption: "",        year: "" },
+    { id: 18, src: f1,  category: "Family",          caption: "",        year: "" },
+    { id: 19, src: f2,  category: "Family",          caption: "",        year: "" },
+    { id: 20, src: f3,  category: "Family",          caption: "",        year: "" },
+    { id: 21, src: f4,  category: "Family",          caption: "",        year: "" },
+    { id: 22, src: f5,  category: "Family",          caption: "",        year: "" },
+    { id: 23, src: f6,  category: "Family",          caption: "",        year: "" },
+    { id: 24, src: f7,  category: "Family",          caption: "",        year: "" },
+    { id: 25, src: f8,  category: "Family",          caption: "",        year: "" },
+    { id: 26 ,src: s1,  category: "Special Moments", caption: "",        year: ""},
+    { id: 27 ,src: s2,  category: "Special Moments", caption: "",        year: ""},
+    { id: 28, src: s3,  category: "Special Moments", caption: "",        year: "" },
+    { id: 29, src: s4,  category: "Special Moments", caption: "",        year: "" },
+    { id: 30, src: s5,  category: "Special Moments", caption: "",        year: "" },
+    { id: 31, src: s6,  category: "Special Moments", caption: "",        year: "" },
+    { id: 32, src: s7,  category: "Special Moments", caption: "",        year: "" },
+    { id: 33, src: s8,  category: "Special Moments", caption: "",        year: "" },
+    { id: 34, src: s9,  category: "Special Moments", caption: "",        year: "" },
+    { id: 35, src: s10,  category: "Special Moments", caption: "",        year: "" },
+    { id: 36, src: s11,  category: "Special Moments", caption: "",        year: "" },
+    { id: 37, src: s12,  category: "Special Moments", caption: "",        year: "" },
+    { id: 38, src: s13,  category: "Special Moments", caption: "",        year: "" },
+    { id: 39, src: s14,  category: "Special Moments", caption: "",        year: "" },
+    { id: 40, src: s15,  category: "Special Moments", caption: "",        year: "" },
+    { id: 41, src: s16,  category: "Special Moments", caption: "",        year: "" },
+    { id: 42, src: s17,  category: "Special Moments", caption: "",        year: "" },
   ];
 
   const filteredPhotos = activeCategory === "All"
